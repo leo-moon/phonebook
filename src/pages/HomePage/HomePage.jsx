@@ -10,6 +10,8 @@ const HomePage = () => {
   if (!token) {
     return (
       <div className={styles.div}>
+        караул
+      {/* <div className={styles.div}> */}
         <h2 className={styles.title}>Welcome! 👍</h2>
         <div className={styles.p_span}>
           <span className={styles.text}>To get started, please register</span>
@@ -17,11 +19,13 @@ const HomePage = () => {
           <span className={styles.text}> or login</span>
           <span className={styles.span}>🔑</span>
         </div>
-      </div>
+       </div>
+      // </div>
     );
   }
   return (
     <div className={styles.div}>
+      кара
       <div className={styles.p_span}>
         <span className={styles.text}>
           {name}, select Phonebook to continue

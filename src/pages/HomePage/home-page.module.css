@@ -23,7 +23,7 @@ justify-content: center;
     /* background: linear-gradient(to right,#833ab4,#f50057,#fcb045,#b345fc) 47% 0; */
     background: linear-gradient(to right,#0087f5,#d9d435);
 
-        -webkit-background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: rgb(247, 125, 125);
     /* margin-top: 15px; */
